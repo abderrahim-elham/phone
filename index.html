@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <title>site</title>
+        <link rel="stylesheet" type="text/css" href="styles/style.css">
+        <link rel="stylesheet" type="text/css" href="styles/style-info.css">
+        <link rel="shortcut icon" type="image/png" href="images/avat-icon.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta charset="utf-8"/>
+    </head>
+    <body>
+         <div class="scrol dis" id="rol"><a href="#top"><img src="images/icon-top.png" width="100%" height="100%"></a></div>
+        <a  name="top"></a>
+         <div class="div-top">
+            <video class="vedio-top"  autoplay muted loop id="vid">
+                 <source src="images/ved_back.mp4" type="video/mp4">
+            </video>
+            <div class="nom-site" ><strong><span>AbdPhone</span></strong></div>
+            <div class="chois">Choisissez votres marques</div>
+        </div>
+        
+          <!-- div de menu -->
+        <div class="div-menu"><strong>
+        <a href="#samsung"><div class="menu-partie">Samsung</div></a>
+        <a href="#iPhone"><div class="menu-partie">iPhone</div></a>
+        <a href="#Xiaomi"><div class="menu-partie">Xiaomi</div></a>
+        <!-- <a href="#Huawei"><div class="menu-partie">Huawei</div></a> -->
+        <a href="#Oppo"><div class="menu-partie par-menu-fin">Oppo</div></a>
+        </strong></div>
+        <!-- div de body -->
+        <div class="div-produite">
+           <div class="titre-prod"><strong><a name="samsung">Samsung</a></strong></div>
+           <div class="produite"><img src="images/samsung/0.jpg"><div class="nom-produit">Samsung Galaxy A02 Noir 32Go<div class="prix-info prix-hover"><button onclick="imge(0,0,sam)">Informations</button></div><div class="prix-info pading-prix">1000DH</div></div></div>
+           <div class="produite"><img src="images/samsung/1.jpg"><div class="nom-produit">Samsung Galaxy A01 Core Noir <div class="prix-info prix-hover"><button onclick="imge(0,1,sam)">Informations</button></div></a><div class="prix-info pading-prix">800DH</div></div></div>
+           <div class="produite"><img src="images/samsung/2.jpg"><div class="nom-produit">Samsung Galaxy A32 Noir <div class="prix-info prix-hover"><button onclick="imge(0,2,sam)">Informations</button></div></a><div class="prix-info pading-prix">10000DH</div></div></div>
+           <div class="produite"><img src="images/samsung/3.jpg"><div class="nom-produit">Samsung Galaxy A52 Noir 32G <div class="prix-info prix-hover"><button onclick="imge(0,3,sam)">Informations</button></div></a><div class="prix-info pading-prix">3500DH</div></div></div>
+           <div class="produite"><img src="images/samsung/4.jpg"><div class="nom-produit">Samsung Galaxy A72 Noir 32G <div class="prix-info prix-hover"><button onclick="imge(0,4,sam)">Informations</button></div></a><div class="prix-info pading-prix">4550DH</div></div></div>
+           <div class="produite"><img src="images/samsung/5.jpg"><div class="nom-produit">infinix hot 9 play Noir Minuit <div class="prix-info prix-hover"><button onclick="imge(0,5,sam)">Informations</button></div></a><div class="prix-info pading-prix">1000DH</div></div></div>
+        </div>
+        <div class="div-grad" style=" background-image: linear-gradient( rgb(0, 0, 0),rgb(89, 255, 186));"></div>
+        <div class="div-produite " style="background-color: aquamarine;">
+            <div class="titre-prod"><strong><a name="iPhone">iPhone</a></strong></div>
+           <div class="produite"><img src="images/iphone/0.jpg"><div class="nom-produit">Apple iPhone 12 pro max 6,7" 256 GB<div class="prix-info prix-hover"><button onclick="imge(1,0,ipho)">Informations</button></div><div class="prix-info pading-prix">13000DH</div></div></div>
+           <div class="produite"><img src="images/iphone/1.jpg"><div class="nom-produit">Apple IPhone5S <div class="prix-info prix-hover"><button onclick="imge(1,1,ipho)">Informations</button></div><div class="prix-info pading-prix">700DH</div></div></div>
+           <div class="produite"><img src="images/iphone/2.jpg"><div class="nom-produit">Apple IPHONE 6S<div class="prix-info prix-hover"><button onclick="imge(1,2,ipho)">Informations</button></div><div class="prix-info pading-prix">1700DH</div></div></div>
+           <div class="produite"><img src="images/iphone/3.jpg"><div class="nom-produit">Apple iPhone 11<div class="prix-info prix-hover"><button onclick="imge(1,3,ipho)">Informations</button></div><div class="prix-info pading-prix">7000DH</div></div></div>
+           <div class="produite"><img src="images/iphone/4.jpg"><div class="nom-produit">Apple iPhone 12 pro max 6,7" <div class="prix-info prix-hover"><button onclick="imge(1,4,ipho)">Informations</button></div><div class="prix-info pading-prix">12500DH</div></div></div>
+           <div class="produite"><img src="images/iphone/5.jpg"><div class="nom-produit">Apple IPHONE X 64 GO Silver Black<div class="prix-info prix-hover"><button onclick="imge(1,5,ipho)">Informations</button></div><div class="prix-info pading-prix">4500DH</div></div></div>
+        </div>
+        <div class="div-grad"  style=" background-image: linear-gradient( aquamarine,blueviolet);"></div>
+        <div class="div-produite " style="background-color: blueviolet;">
+            <div class="titre-prod"><strong><a name="Xiaomi">Xiaomi</a></strong></div>
+           <div class="produite"><img src="images/xiomi/0.jpg"><div class="nom-produit">Xiaomi Redmi 9T Noir<div class="prix-info prix-hover"><button onclick="imge(2,0,xiom)">Informations</button></div><div class="prix-info pading-prix">1800DH</div></div></div>
+           <div class="produite"><img src="images/xiomi/1.jpg"><div class="nom-produit">Xiaomi Redmi Note 10 Noir<div class="prix-info prix-hover"><button onclick="imge(2,1,xiom)">Informations</button></div><div class="prix-info pading-prix">2400DH</div></div></div>
+           <div class="produite"><img src="images/xiomi/2.jpg"><div class="nom-produit">Xiaomi Redmi Note 10 Pro Noir<div class="prix-info prix-hover"><button onclick="imge(2,2,xiom)">Informations</button></div><div class="prix-info pading-prix">3200DH</div></div></div>
+           <div class="produite"><img src="images/xiomi/3.jpg"><div class="nom-produit">Xiaomi Redmi 9A Gris Granite<div class="prix-info prix-hover"><button onclick="imge(2,3,xiom)">Informations</button></div><div class="prix-info pading-prix">1200DH</div></div></div>
+           <div class="produite"><img src="images/xiomi/4.jpg"><div class="nom-produit">XIAOMI Mi 11 Lite 6.55<div class="prix-info prix-hover"><button onclick="imge(2,4,xiom)">Informations</button></div><div class="prix-info pading-prix">3400DH</div></div></div>
+           <div class="produite"><img src="images/xiomi/5.jpg"><div class="nom-produit">Xiaomi Redmi 9C Noir<div class="prix-info prix-hover"><button onclick="imge(2,5,xiom)">Informations</button></div><div class="prix-info pading-prix">1700DH</div></div></div>
+        </div>
+        <div class="div-grad" style=" background-image: linear-gradient( blueviolet,darkblue);"></div>
+        <div class="div-produite " style="background-color: darkblue;">
+           <div class="titre-prod"><strong><a name="Oppo">Oppo</a></strong></div>
+           <div class="produite"><img src="images/oppo/0.jpg"><div class="nom-produit">Oppo A53 noir<div class="prix-info prix-hover"><button onclick="imge(3,0,opp)">Informations</button></div><div class="prix-info pading-prix">1700DH</div></div></div>
+           <div class="produite"><img src="images/oppo/1.jpg"><div class="nom-produit">Oppo A73 Bleu<div class="prix-info prix-hover"><button onclick="imge(3,1,opp)">Informations</button></div><div class="prix-info pading-prix">2200DH</div></div></div>
+           <div class="produite"><img src="images/oppo/2.jpg"><div class="nom-produit">Xiaomi Redmi 9C Noir<div class="prix-info prix-hover"><button onclick="imge(3,2,opp)">Informations</button></div><div class="prix-info pading-prix">1700DH</div></div></div>
+           <div class="produite"><img src="images/oppo/3.jpg"><div class="nom-produit">Xiaomi Redmi 9C Noir<div class="prix-info prix-hover"><button onclick="imge(3,3,opp)">Informations</button></div><div class="prix-info pading-prix">1700DH</div></div></div>
+           <div class="produite"><img src="images/oppo/4.jpg"><div class="nom-produit">Xiaomi Redmi 9C Noir<div class="prix-info prix-hover"><button onclick="imge(3,4,opp)">Informations</button></div><div class="prix-info pading-prix">1700DH</div></div></div>
+           <div class="produite"><img src="images/oppo/5.jpg"><div class="nom-produit">Oppo A12 Noir<div class="prix-info prix-hover"><button onclick="imge(3,5,opp)">Informations</button></div><div class="prix-info pading-prix">900DH</div></div></div>
+        </div>
+
+          <div class="div-fin">
+              <div class="div-left"><ul><li><span style="font-size: 25px;color: rgb(236, 92, 224);"><strong>Nos marques</strong></span></li><a href="#samsung"><li>Samsung</li></a><a href="#iPhone"><li>iPhone</li></a><a href="#Xiaomi"><li>Xiaomi</li></a><a href="#Oppo"><li>Oppo</li></a></ul></div>
+              <div class="div-rigth"><ul><li><span style="font-size: 25px;color: rgb(236, 92, 224);"><strong>Liens utiles</strong></span></li><a href="https://www.samsung.com/n_africa/"><li>Lien 1<li></li></a><a href="https://www.huaweimall.ma/"><li>Lien 2</li></a><a href="https://www.mi.com/global/index.html"><li>Lien 3</Label></li></a><a href="https://www.oppo.com/ma/"><li>Lien 4</li></a></ul></div>
+              <div class="div-social">
+                   <div class="cont-social"><a href="https://fr-fr.facebook.com/"><img src="images/imgs_social/fb.png" width="100%" height="100%"></a></div>
+                   <div class="cont-social"><a href="https://www.instagram.com/"><img src="images/imgs_social/insta.png" width="100%" height="100%"></a></div>
+                   <div class="cont-social"><a href="https://www.youtube.com/"><img src="images/imgs_social/youtube.png" width="100%" height="100%"></a></div>
+                   <div class="cont-social"><a href="https://www.linkedin.com/?trk=public_post_nav-header-logo"><img src="images/imgs_social/linkdin.png" width="100%" height="100%"></a></div>
+                   <div class="cont-social"><a href="https://twitter.com/?lang=fr"><img src="images/imgs_social/tweter.png" width="100%" height="100%"></a></div>
+              </div>
+         </div>
+
+        <script type="text/javascript" src="jss/js.js"></script>
+    </body>
+</html>

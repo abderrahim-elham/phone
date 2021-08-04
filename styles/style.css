@@ -1,0 +1,270 @@
+body{
+    margin: 0%;
+    background-color: brown;
+}
+a{
+    text-decoration: none;
+    color:none;
+}
+button{
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: rgba(240, 234, 234, 0);
+    font-size: 20px;
+}
+.div-top{
+    width: 100%;
+    background-color: cadetblue;
+    height: 400px;
+    position: relative;
+}
+.produite img{
+    border-radius:20px 20px 0px 0px;
+    width:100%; 
+    height:60%;
+}
+.vedio-top{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    object-position: center;
+}
+.nom-site{
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 60px;
+    padding-top: 10px;
+    background-color: rgba(64, 224, 208, 0.568);
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 34%;
+    border-radius: 30px;
+    border: 1px rgb(21, 255, 0) solid;
+}
+.chois{
+    width: 60%;
+    height: 45px;
+    background-color: rgba(255, 255, 255, 0.438);
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 20%;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 5px;
+    color: cyan;
+    
+}
+.div-menu{
+    width: 100%;
+    height: 80px;
+    background-color: violet;
+}
+.menu-partie{
+     width: 20%;
+     height: 40px;
+     padding-top: 10px;
+     margin-top: 15px;
+     margin-left: 4%;
+     float: left;
+     background-color: rgb(245, 92, 151);
+     border-radius: 10px;
+     border: 2px rgb(0, 255, 191) outset;
+     box-shadow: 0px 0px 3px 3px rgb(129, 128, 128);
+     color: black;
+     font-size: 20px;
+     text-align: center;
+}
+.menu-partie:hover{
+         background-color: cornflowerblue;
+         border: 2px rgb(255, 255, 255) solid;
+         box-shadow: 0px 0px 3px 3px rgb(255, 255, 255);
+         color: white;
+}
+.div-produite{
+    width: 100%;
+    padding-bottom: 40px;
+    background-color: rgb(0, 0, 0);
+    float: left;
+}
+.produite{
+   background-color: rgb(0, 0, 0);
+   width: 20%;
+   height: 500px;
+   float: left;
+   margin-top: 40px;
+   margin-left: 10%;
+   border: 2px rgb(0, 247, 255) solid;
+   border-radius: 20px;
+   box-shadow: 0px 0px 6px 8px rgb(255, 255, 255);
+}
+.produite:hover{
+    background-color: rgb(255, 255, 255);
+    box-shadow: none;
+    color: black;
+    /* transform: rotate(5deg) */
+}
+.titre-prod{
+    width: 50%;
+    height: 50px;
+    background-color: rgb(111, 229, 245);
+    margin-left: 25% ;
+    margin-top: 20px;
+    padding-top: 10px;
+    text-align: center;
+    font-style:italic;
+    font-size: 30px;
+    border-radius: 10px;
+    border: 2px rgb(255, 255, 255) solid;
+}
+.nom-produit{
+   margin-top: 0px;
+   height: 38%;
+   padding-top: 2%;
+   width:100%;
+   border-radius: 0px 0px 20px 20px;
+   background-color: darkblue;
+   color: white;
+   font-size: 20px;
+   text-align: center;
+}
+.nom-produit:hover{
+    background-color: white;
+    color: black;
+}
+.prix-info{
+    width: 80%;
+    height: 40px;
+    margin-top: 20px;
+    padding-top: 0px;
+    background-color: violet;
+    margin-left: 20px;
+    border-radius: 10px;
+    border: 1px red solid;
+    float: left;
+}
+.pading-prix{
+    padding-top: 10px;
+    height: 30px;
+}
+.prix-hover:hover{
+   background-color: turquoise;
+   color: rgb(0, 38, 255);
+   border: 2px rgb(255, 255, 255) solid;
+   box-shadow: 0px 0px 3px 3px rgb(94, 93, 93);
+}
+.div-grad{
+    width: 100%;
+    height: 50px;
+    float: left;
+   
+}
+.div-fin{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    color: white;
+    float: left;
+}
+.div-left{
+    width: 30%;
+    height: 200px;
+    padding: 20px;
+    margin-top: 25px;
+    background-color: teal;
+    float: left;
+    margin-left: 5%;
+    font-size: 20px;
+}
+.div-rigth{
+    width: 30%;
+    height: 200px;
+    margin-top: 25px;
+    background-color: teal;
+    float: right;
+    margin-right: 5%;
+    font-size: 20px;
+    padding: 20px;
+}
+ul{
+    list-style: none;   
+}
+li{
+    margin-top: 10px;
+    color: white;
+}
+li:hover{
+    color: rgb(75, 241, 191);
+    text-decoration: underline;
+}
+.div-social{
+    width: 400px;
+    height: 60px;
+    background-color: rgb(71, 197, 255); 
+    margin: auto;
+    margin-top: 300px;
+}
+.cont-social{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(250, 242, 248);
+    margin-top: 5px;
+    margin-left: 25px;
+    float: left;
+    border-radius: 50%;
+}
+.cont-social:hover{
+    background-color: rgb(146, 142, 142);
+    border: 1.5px rgb(255, 255, 255) solid;
+    box-shadow: 0px 0px 3px 3px rgb(255, 255, 255);
+}
+.scrol{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgb(141, 149, 150);
+    margin-top: 550px;
+    margin-left:90% ;
+    position: fixed;
+    border: 1.5px rgb(30, 255, 0) solid;
+}
+.dis{
+    display: none;
+}
+@media (max-width:1000px) {
+    body{
+        background-color: chartreuse;
+    }
+    .div-menu{
+        height: 160px;
+    }
+    .menu-partie{
+        width: 40%;
+    }
+    .produite{
+        background-color: rgb(68, 230, 95);
+        width: 30%;
+    }
+}
+@media (max-width:600px) {
+    body{
+        background-color: red;
+    }
+   .nom-site{
+       margin-left: 20%;
+   }
+    .produite{
+        background-color: rgb(247, 82, 192);
+        width: 60%;
+        margin-left: 20%;
+    }
+    .chois{
+     height:90px;
+     margin-top: 305px;
+    }
+}
+

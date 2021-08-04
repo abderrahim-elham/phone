@@ -1,0 +1,117 @@
+body{
+    background-color: rgb(81, 151, 209);
+    margin: 0%;
+}
+.div-menu{
+    width: 80%;
+    height: 100px;
+    background-color: darkblue;
+    margin: auto;
+    margin-top: 100px;
+}
+.principal{
+    width: 1000px;
+    margin: auto;
+    border-radius: 20px;
+   
+}
+.partie{
+    width: 470px;
+    height: 350px;
+    background-color: cyan;
+    margin-top: 50px;
+    float: left;
+    border-radius: 30px;
+    /* float: left; */
+}
+.partie2{
+    margin-left: 57px;
+}
+.partie img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+.anim{
+    font-size: 20px;
+    animation-name: change;
+    animation-duration: 2s;
+    animation-iteration-count:1;
+    animation-timing-function:ease-in-out;
+    animation-direction:alternate;
+}
+ @keyframes change{
+   from{width: 0px;margin-left: 0%;font-size: 0px;};
+   to{width: 40%;margin-left: 5%;font-size: 20px};
+}
+.anim2{
+    font-size: 20px;
+    animation-name: change2;
+    animation-duration: 2s;
+    animation-iteration-count:1;
+    animation-timing-function:ease-in-out;
+    animation-direction:alternate;
+}
+ @keyframes change2{
+   from{width: 0px;margin-left: 100%;font-size: 0px;};
+   to{width: 40%;margin-left: 5%;font-size: 20px};
+}
+.menu-top{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    color: deepskyblue;
+    font-size: 25px;
+    padding-top: 10px;
+    margin-top: 20px;
+    float: left;
+    margin-left: 20px;
+}
+.menu-top:hover{
+    background-color: rgb(73, 160, 247);
+    color: gray;
+}
+.div-social{
+    width: 400px;
+    height: 60px;
+    margin: auto;
+}
+.cont-social{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(250, 242, 248);
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+    float: left;
+    border-radius: 50%;
+}
+.cont-social:hover{
+    background-color: rgb(146, 142, 142);
+    border: 1.5px rgb(255, 255, 255) solid;
+    box-shadow: 0px 0px 3px 3px rgb(255, 255, 255);
+}
+@media (max-width:1000px) {
+    body{
+        background-color: chartreuse;
+    }
+    .principal{
+        width: 100%;
+    }
+    .partie{
+        width: 400px;
+        height: 350px;
+        float: none;
+        margin: auto;
+        margin-top: 40px;
+    }
+    @keyframes change{
+        from{width: 0px;font-size: 0px;};
+        to{width: 400px;font-size: 20px};
+     }
+   @keyframes change2{
+        from{width: 0px;font-size: 0px;};
+        to{width: 400px;font-size: 20px};
+     }
+}
